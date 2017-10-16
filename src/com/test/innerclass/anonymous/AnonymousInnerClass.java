@@ -26,12 +26,13 @@ package com.test.innerclass.anonymous;
  * 
  * ----------------------------------------------------
  * 
- *  * he getDestination( ) method combines the creation of the return value with the definition of the
+ * The getDestination( ) method combines the creation of the return value with the definition of the
  * class that represents that return value! In addition, the class is anonymous; it has no name.
- * To make matters a bit worse, it looks like you’re starting out to create a Contents object, But
- * then, before you get to the semicolon, you say, "But wait, I think I’ll slip in a class definition."
+ 
+ * To make matters a bit worse, it looks like youâ€™re starting out to create a Contents object, But
+ * then, before you get to the semicolon, you say, "But wait, I think Iâ€™ll slip in a class definition."
  * 
- *  What this strange syntax means is "Create an object of an anonymous class that’s inherited
+ *  What this strange syntax means is "Create an object of an anonymous class thatâ€™s inherited
  * from Contents." The reference returned by the new expression is automatically upcast to a
  * Contents reference. The anonymous inner-class syntax is a shorthand for: 
  * 
