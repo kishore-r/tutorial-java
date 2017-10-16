@@ -17,7 +17,7 @@ package com.test.innerclass.nestedinnerclass;
  * ----------------------------------
  *  WHEN ?
  * ----------------------------------
- * If you don’t need a connection between the inner-class object and the outerclass object, then
+ * If you donâ€™t need a connection between the inner-class object and the outerclass object, then
  * you can make the inner class static. This is commonly called a nested class.
  * To understand the meaning of static when applied to inner classes, you must remember that the object of
  * an ordinary inner class implicitly keeps a reference to the object of the enclosing class that
@@ -29,8 +29,8 @@ package com.test.innerclass.nestedinnerclass;
  * RULE/RESTRICTION
  * 
  * ---------------------------------------------------------------------------------
- * 1. You don’t need an outer-class object in order to create an object of a nested class.
- * 2. You can’t access a non-static outer-class object from an object of a nested class.
+ * 1. You donâ€™t need an outer-class object in order to create an object of a nested class.
+ * 2. You canâ€™t access a non-static outer-class object from an object of a nested class.
  * 
  * ---------------------------------------------------------------------------------
  * WHAT DIFFERS?
@@ -88,8 +88,7 @@ public class NestedInnnerClassApp {
      * In main( ), no object of NestedInnnerClassApp is necessary; instead, you use the normal syntax for
      * selecting a static member to call the methods that return references to Contents and
        Destination.
-     * As you’ve seen earlier in this chapter, in an ordinary (non-static) inner class, 
-     * the link to the outer-class object is achieved with a special this reference. 
+     * in an ordinary (non-static) inner class, the link to the outer-class object is achieved with a special this reference. 
      * A nested class does not have a special this reference, which makes it analogous to a static method. 
      *
      * @param args
