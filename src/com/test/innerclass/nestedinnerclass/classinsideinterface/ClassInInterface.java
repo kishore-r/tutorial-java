@@ -25,6 +25,8 @@ package com.test.innerclass.nestedinnerclass.classinsideinterface;
  * 
  * ------------------------------------------------
  * WHY ?
+ * It’s convenient to nest a class inside an interface when you want to create some common code
+ * to be used with all different implementations of that interface. 
  * ------------------------------------------------
  */
 public interface ClassInInterface {
